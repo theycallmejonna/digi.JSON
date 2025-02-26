@@ -16,7 +16,11 @@
             "loppu": "14.3.2025",
             "kesto_viikkoina": 8
         },
-        "kuva": "https://theycallmejonna.github.io/digi.JSON/toteutuskuva1.jpeg"
+        "kuva": {
+            "url": "https://theycallmejonna.github.io/digi.JSON/toteutuskuva1.jpeg",
+            "kuvaus": "Käsi koskettamassa interaktiivista näyttöä, jossa lukee HAAGA-HELIA ja Opens Doors to Future Career, sekä START-painike"
         }
     }
+}
+
 
