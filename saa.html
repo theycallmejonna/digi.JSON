@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sää</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>JSON-datan käsittelyä</h1>
+
+        <!-- Piilotettu valintaruutu -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">☀️🌧️</label>
+
+        <!-- hampurilaisvalikko -->
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">🏠🌸 Etusivu</a></li>
+                <li><a href="toteutus.html">👑 Toteutus</a></li>
+                <li><a href="tapahtumat.html">🎉 Tapahtumat</a></li>
+                <li><a href="saa.html">☀️🌧️ Sää</a></li>
+                <li><a href="junat.html">🚂 Junat</a></li>
+                <li><a href="liikennekamera.html">📷 Liikennekamera</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Sää-tietojen hakeminen</h1>
+        <p>Tässä osiossa tutustumme säätietojen hakemiseen ja käsittelyyn. Esimerkkeinä käytämme säätietoja Helsingistä ja Tampereelta.</p>
+        
+        <!-- Tänne tulee JSON-data -->
+        <div id="saa">Ladataan säätietoja...</div>
+    </main>
+
+    <footer>
+        <p>© Jonna H</p>
+    </footer>
+    
+    <!-- JavaScript-tiedoston linkitys -->
+    <script src="saa.js"></script>
+</body>
+
+</html>
