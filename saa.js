@@ -23,8 +23,8 @@ function naytaSaa(data) {
     for (var i = 0; i < data.list.length; i++) {
         var kaupunki = data.list[i].name;
         var saakuvaus = data.list[i].weather[0].description;
-        var lampotila = data.list[i].main.temp.toFixed(1) + "°C"; // näytetään vastaus kahden desimaalin tarkkuudella
-        var tuuli = data.list[i].wind.speed.toFixed(1) + " m/s"; // näytetään vastaus kahden desimaalin tarkkuudella
+        var lampotila = data.list[i].main.temp.toFixed(1) + "°C"; // näytetään vastaus yhden desimaalin tarkkuudella
+        var tuuli = data.list[i].wind.speed.toFixed(1) + " m/s"; // näytetään vastaus yhden desimaalin tarkkuudella
 
         // lisätään sääemojit säätilan perusteella
         var saaemoji = "";
