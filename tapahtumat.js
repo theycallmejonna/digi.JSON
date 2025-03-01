@@ -23,7 +23,7 @@ function tapahtumat(data) {
     var teksti = "";
     teksti = "<h1>Tampereella tapahtuu</h1>";
     for (var i = 0; i < data.length; i++) {
-        teksti = teksti + "<h3>" + data[i].name + "</h3>";
+        teksti = teksti + "<h3>" + data[i].title + "</h3>";
         teksti = teksti + "<p>" + data[i].description + "</p>";
         teksti = teksti + "<p> <a href='" + data[i].url + "' target='_blank'>" + data[i].url + "</a></p>";
     }
